@@ -1,6 +1,5 @@
-import { isDisabled } from "@testing-library/user-event/dist/utils";
-import React, {component} from "react";
-import {storeProducts, DetailProduct, detailProduct} from './data';
+import React from "react";
+import {storeProducts, detailProduct} from './data';
 const ProductContext = React.createContext();
 
 class ProductProvider extends React.Component {
